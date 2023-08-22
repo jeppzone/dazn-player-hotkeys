@@ -6,10 +6,12 @@ Contains Javascript that can be injected to DAZN to receive some rudimentary key
 
 If using Google Chrome, injection can be done with the extension [Custom JavaScript for Websites 2](https://chrome.google.com/webstore/detail/custom-javascript-for-web/ddbjnfjiigjmcpcpkmhogomapikjbjdk).
 
+This is a one-time setup. When all these steps are completed, you shouldn't have to do anything again unless you uninstall the extension.
+
 1. Install the chrome extension
 2. Go to [DAZN Website](https://dazn.com)
 3. Open the extension while on DAZN's website.
-4. Toggle `Enable cjs for this host` in the top right corner
+4. Toggle `"Enable cjs for this host"` in the top right corner
 5. Paste the contents of `index.js` to the editor in the extension.
 6. Press Save
 7. Enjoy dazn with hotkeys!
